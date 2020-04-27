@@ -1,0 +1,285 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0px;
+   }
+
+
+/*General info*/
+h1{
+    font-family: "Roboto Slab";
+    color: #242a44;
+    font-weight: bold;
+    font-size:7vh ;
+}
+/*subtitle-main-footer*/
+h2 {
+    font-family: "Roboto Slab";
+    color: #242a44;
+    font-weight: bold;
+    font-style: italic;
+}
+.subtitle{
+    background-color: #f2f7f2;
+}
+/*subtitle-aside*/
+h3 {
+    font-family:"Roboto Slab";
+    color: #242a44;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+}
+/*quotes*/
+h4 {
+    font-family: "Roboto";
+    font-weight: bold;
+    background-color: #8ea8c3;
+    color: #242a44;
+    padding:20px;
+    text-align: center;
+    margin-bottom:5px;
+}
+h5{
+    color: #242a44;
+    font-family: "roboto";
+    font-weight: normal;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+/*main-body text*/
+p {
+    margin: 0;
+    font-family: "Roboto";
+    padding:7px;
+    color: #242a44;
+  }
+
+  /* EVERYTHING HERE IS FOR A SMALL MEDIA SCREEN...MEDIA FIRST*/
+
+  /* Nav bar and links*/
+nav {
+    width: 100%;
+    font-family: "Roboto";
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 0px;
+    margin-bottom: 22px;
+    text-align: center;
+    width: 100%;
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+    justify-content:center;
+    padding-left:0;
+    margin: 0;
+}
+
+nav li{
+    display: flex;
+    background: #8ea8c3;
+    Padding: 1rem;
+    cursor:pointer;
+    text-align:center;
+    border-radius:5px;
+    margin:5px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: #415a77;
+    padding: 2px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+nav ul a {
+    text-transform: uppercase;
+    font-size: 12px;
+    text-decoration: none;
+}
+/*background of link when you hover*/
+nav li:hover{
+    background:#415a77;
+    border:none;
+}
+/* color of link when you hover*/
+nav li:hover a{
+    border:none;
+    color: #f2f7f2;
+}
+.rowbio{
+    padding-left:5%;
+    padding-right:5%;
+    background-color: #f2f7f2;
+}
+
+.row1 h2{
+    text-align: center;
+}
+.row1 h3{
+    text-align: center;
+}
+.row1{
+    background-color: #8ea8c3;
+    margin:0;
+}
+
+.row2{
+    padding-left:5%;
+    padding-right:5%;
+    background-color: #f2f7f2;
+}
+
+section{
+    width:100%;
+    margin: 0 auto;
+}
+section img {
+    width: 100%;
+}
+.row2a{
+    padding-left:5%;
+    padding-right:5%;
+    background-color: #f2f7f2;
+}
+.subtitle{
+    padding-left:5%;
+    padding-right:5%;
+    text-align: center;
+}
+.row3{
+    padding-left:10%;
+    justify-content:center;
+    background-color: #242a44;
+}
+.row3 h2{
+    text-align: center;
+    color:#8ea8c3;
+}
+head {
+    padding:0px;
+}
+.footer{
+    background:#aec99c;
+}
+ul{
+    padding-left: 10%;
+}
+li{
+    margin: 0;
+    font-family: "Roboto";
+    color: #242a44;
+    text-decoration: none;
+    list-style: circle;
+}
+
+input{
+    width:100%;
+    display: block;
+    justify-content: center;
+    padding:0px;
+}
+input:focus{
+    border:3px solid #8ea8c3;
+}
+
+button{
+    width:100%;
+    background-color:#8ea8c3;
+    border:none;
+    color: #f2f7f2;
+    padding-top:1%;
+    padding-bottom:1%;
+    margin-top: 1%;
+}
+button:hover{
+    background:#415a77;
+    color: #f2f7f2;
+}
+
+.sheet{
+    border-radius: 5px;
+    background-color:#242a44;
+    width:90%;
+    display:flex;
+    align-items: center;
+    padding:5%;
+}
+
+label{
+    color:#8ea8c3;
+    margin-bottom: 1%;
+}
+.icon{
+    background-color:#f2f7f2;
+}
+
+.slicknav_menu {
+    display: none;
+  }
+a:hover{
+    color: navy;
+}
+
+@media screen and (max-width:620px){
+    .menubar {
+        display: none;
+      }
+     
+      .slicknav_menu {
+        display: block;
+      }
+      .slicknav_menu .slicknav_menutxt {
+        color:#8ea8c3;
+        text-shadow: none;
+    } body{
+        min-width: 300px;
+    }
+    .aside2{
+        display:flex;
+        justify-content: center;
+        padding-bottom: 2%;
+    }}
+
+    @media screen and (min-width:620px){
+        .row2{
+            display:flex;
+            grid-template-columns: 2fr 1fr;
+        }
+        .row2a{
+            display:flex;
+            grid-template-columns:1fr 1fr;
+        }
+        .private{
+            width: 50%;
+        }
+        .pic {
+            width:50%;
+            padding-right:3%;
+        }
+        
+        }
+        .main{
+            padding-right:3%;
+        }
+        .aside1{
+            padding-right: 3%;
+        }
+        .aside2{
+            margin:0 auto;
+            display: flex;
+            justify-content: center;
+            max-height:200px ;
+        }
+    
